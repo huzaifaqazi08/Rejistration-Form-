@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            align-items: center;
+        }
+
+        .colr {
+            background-color: darkgray;
+            color: black;
+        }
+
+        .ed {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+
+        <tr>
+
+            <th colspan="2" class="colr" id="gy">Complex page using table <br>
+                <a href="#fom">form</a> |
+                <a href="#rec">records</a>  |
+                <a href="#med">media</a>
+            </th>
+
+        </tr>
+
+        <tr>
+            <colgroup>
+                <col width="200">
+                <td> <strong>Section</strong>
+                <ul>
+                    <li><a href="#fom">form</a> </li>
+                    <li><a href="#rec">records</a> </li>
+                    <li> <a href="#med">media</a></li>
+                </ul>
+</td>
+
+                <td>
+                    <h3 id="fom">Registration Form</h3>
+                    <table border="1">
+                        <colgroup>
+                            <col width="450">
+                            <col width="450">
+                        <tr>
+
+                            <td align="center" colspan="2">Personal Information</td>
+
+                        </tr>
+                        <tr>
+                            <td>Full Name :</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>password :</td>
+                            <td>
+                                <input type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email :</td>
+                            <td>
+                                <input type="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>gender :</td>
+                            <td>
+                                <label for="">male</label>
+                                <input type="radio">
+                                <label for="">female</label>
+                                <input type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Date</td>
+                            <td><input type="date" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>country</td>
+                            <td><select name="" id="">
+                                    <option value="ds">--select--</option>
+                                    <option value="pak">pakistan</option>
+                                    <option value="pak">india</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>short bio :</td>
+                            <td>
+                                <textarea name="f" cols="15" rows="2"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td colspan="2" align="center"><button type="submit">submit</button>
+                                <button type="submit">register</button>
+                            </td>
+
+                        </tr>
+            </colgroup>
+    </table>
+
+    <h3 id="rec">Employee Records</h3>
+    <table border="1">
+        <colgroup>
+            <col width="100">
+            <col width="150">
+            <col width="250">
+            <col width="250">
+            <col width="250">
+
+        <tr>
+            <td class="ed" rowspan="2">ID</td>
+            <td class="ed" rowspan="2">name</td>
+            <td class="ed" colspan="2">performance</td>
+            <td class="ed" rowspan="2">remarks</td>
+        </tr>
+        </colgroup>
+        <tr>
+            <td class="ed">2024</td>
+            <td class="ed">2025</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Ali Raza</td>
+            <td>Excellence</td>
+            <td>good</td>
+            <td rowspan="2">promoted</td>
+
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>sra khan</td>
+            <td align="center" colspan="2">outstanding</td>
+
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>jhon deo</td>
+            <td>averge</td>
+            <td>poor</td>
+            <td>under review</td>
+        </tr>
+    </table>
+    <h3 id="med">Media Gallery</h3>
+    <table border="1">
+        <colgroup>
+            <col width="250">
+            <col width="450">
+            <col width="250">
+        </colgroup>
+        <tr>
+            <td>imaje</td>
+            <td align="center">audio</td>
+            <td>video </td>
+        </tr>
+        <tr>
+            <td><img width="300" height="200" src="Screenshot 2025-07-15 212529.png" alt=""></td>
+            <td><audio controls src="audio-club-edyn-343275.mp3"></audio></td>
+            <td><video controls width="300" height="200" src="WhatsApp Video 2025-07-14 at 22.02.55_e88e62dc.mp4"></video></td>
+        </tr>
+    </table>
+    <h3>Contact Information Table</h3>
+    <table  border="1">
+        <colgroup>
+            <col width="300">
+            <col width="350">
+            <col width="350">
+        </colgroup>
+       <tr>
+        <td rowspan="2">Department</td>
+        <td colspan="2">Contact Details</td>
+       </tr>
+       <tr>
+        <td>emil</td>
+        <td>phone</td>
+       </tr>
+       <tr>
+        <td>hr</td>
+        <td>hr@gmail</td>
+        <td>123-45</td>
+       </tr>
+    </table>
+    </td>
+    </colgroup>
+    </tr>
+    <tr>
+
+            <th colspan="2" class="colr">&copy; 2025 complex Html page <a href="#gy">back to top</a>
+                
+            </th>
+
+        </tr>
+
+    </table>
+</body>
+
+</html>
